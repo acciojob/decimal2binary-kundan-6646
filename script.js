@@ -1,11 +1,5 @@
-function decimalToBinary(n) {
-	let res = "";
-	while(n > 0) {
-		res = (n%2) + res;
-		n = parseInt(n / 2);
-	}
-
-	return res;
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = decimalToBinary;
+window.decimalToBinary = decimalToBinary;
